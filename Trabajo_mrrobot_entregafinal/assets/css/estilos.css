@@ -1,0 +1,307 @@
+@font-face {
+    font-family: mrrobot;
+    src: url(mrrobot.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: VictorMono;
+    src: url(VictorMono.ttf) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200;400;500;600&display=swap');
+
+.style-index {
+    background-image: url(../img/wallpaperind3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.pl-3{
+    padding-left: 13px;
+
+}
+
+.tipo-basic {
+    font-family: 'VictorMono-Bold', monospace;
+}
+
+.tipo-logo {
+    font-family: "mrrobot";
+    font-size: 30px;
+}
+
+.bg-color {
+    background-color: rgb(0, 0, 0);
+}
+
+/*.borde__cajas {
+    border: 1px solid;
+    border-color: rgb(54, 54, 54);
+} */
+
+.container-index{
+    width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1px;
+}
+
+.container {
+    width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.trailer {
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+
+}
+
+.trailer iframe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+/* PERSONAJES*/
+
+.body-style {
+    background-image: url(../img/wallpapertemp.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+
+}
+
+.body-pers {
+    background-image: url(../img/wallpaper2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+
+}
+
+.p-personajes {
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center;
+}
+
+.globo-personajes {
+    margin-right: auto;
+    margin-left: auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: 0.1s;
+}
+
+
+.tamano-img {
+    width: 100%;
+}
+
+.img-center {
+    margin-left: -35px;
+}
+
+.textos-enlaces {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.textos-enlaces:hover .tamano-img {
+    display: none;
+}
+
+.textos-enlaces:hover .efecto-glitch1 {
+    background-image: url("../img/fotoelliotglitch.gif");
+    background-size: cover;
+}
+
+.textos-enlaces:hover .efecto-glitch2 {
+    background-image: url("../img/fototyrell.gif");
+    background-size: cover;
+}
+
+.textos-enlaces:hover .efecto-glitch3 {
+    background-image: url("../img/whiterose.gif");
+    background-size: cover;
+}
+
+.textos-enlaces:hover .efecto-glitch4 {
+    background-image: url("../img/darlenefoto.gif");
+    background-size: cover;
+}
+
+.textos-enlaces:hover .efecto-glitch5 {
+    background-image: url("../img/angelamosssfoto.gif");
+    background-size: cover;
+}
+
+.textos-enlaces:hover .efecto-glitch6 {
+    background-image: url("../img/fotomrrobot1.gif");
+    background-size: cover;
+}
+
+
+.container-pers {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-pers {
+    background-color: slategray;
+    width: 360px;
+    height: 360px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 10px;
+}
+
+.img-gran {
+    background-color: slategray;
+    width: 100%;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.posi-img {
+    float: left;
+}
+
+.text-style {
+    font-family: 'M PLUS 1 Code';
+}
+
+.borde-h {
+    width: 97%;
+    height: 1px;
+    border-top: dashed 1px white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*TEMPORADAS*/
+
+.no-puntos {
+    list-style: none;
+    margin-left: -10px;
+}
+
+.img-temp {
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    height: 100px;
+    float: right;
+
+}
+
+.texto-temp {
+    font-family: 'VictorMono-Bold', monospace;
+    font-size: 14px;
+    float: right;
+    margin-left: -30px;
+}
+
+.t-temp{
+    font-family: 'M PLUS 1 Code';
+    font-size: 20px;
+}
+
+.container_temp {
+    margin: auto;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+.container-caps {
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 100%;
+}
+
+.bg-temp {
+    background-image: url(../img/fondopersonajes2.gif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.separador {
+    border-bottom: dashed 1px white;
+
+}
+
+.titulo-eps {
+    font-family: 'VictorMono-Bold', monospace;
+    font-size: 18px;
+}
+
+/* GALERÍA*/
+
+.bg-galery {
+
+    background-image: url(../img/wallpaper5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.globo-galeria {
+    margin-right: auto;
+    margin-left: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.img-wallp {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background-color: slategrey;
+}
+
+.img-ban {
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    background-color: slategrey;
+}
+
+.img-gf {
+    width: 360px;
+    height: 250px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: slategrey;
+}
+
+.tamano-img-gal {
+    height: 100%;
+    margin-left: -70px;
+
+}
